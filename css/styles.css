@@ -71,11 +71,11 @@ img {
 /* Шапка сайта */
 .header-section {
   background-color: var(--header-background-color);
+  border-bottom: 1px solid #ececec;
 }
 .header-conteiner {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 .site-nav {
   display: flex;
@@ -265,6 +265,7 @@ img {
 .footer {
   background-color: var(--secondary-background-color);
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-white {
   color: var(--secondary-white-accent);
@@ -303,6 +304,7 @@ img {
   margin-bottom: 50px;
 }
 .portfolio-button {
+  padding: 6px 22px;
   color: var(--primary-text-color);
   background-color: var(--our-team-background-color);
   border-color: transparent;
@@ -329,10 +331,12 @@ img {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
-  border-bottom: solid 1px #eeeeee;
 }
 .portfolio-information {
   padding: 20px 24px;
+  border-right: solid 1px #eeeeee;
+  border-bottom: solid 1px #eeeeee;
+  border-left: solid 1px #eeeeee;
 }
 .portfolio-title {
   margin-bottom: 4px;
